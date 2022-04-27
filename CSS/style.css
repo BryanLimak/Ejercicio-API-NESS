@@ -1,0 +1,52 @@
+body {
+  background-color: #252525;
+}
+
+.container {
+  padding: 50px;
+  width: 1000px;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-image: url("../Images/fondo.jpg");
+  background-size: cover;
+  background-position: bottom;
+  outline: 15px solid white;
+}
+
+.wid {
+  width: 800px;
+  display: inline-block;
+}
+
+.image {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background-image: url("../Images/chuk.png");
+  background-size: cover;
+  background-position: center;
+  -webkit-transform: scale(2.5);
+          transform: scale(2.5);
+  margin-right: -20px;
+  margin-top: 80px;
+}
+
+.nes-btn {
+  float: left;
+}
+
+.div-1 {
+  height: 150px;
+}
+
+.div-2 {
+  position: absolute;
+  margin-left: 180px;
+  width: 800px;
+  height: 100px;
+}
+/*# sourceMappingURL=style.css.map */
